@@ -1,4 +1,9 @@
-button#search {
+.search, .plus, .create_acc{
+    display:block;
+    margin-bottom: 20px;
+}
+
+.search {
     color:#25a3a5;
     background-color:#f5f5f5;
     border-color: #25a3a5;
@@ -6,12 +11,12 @@ button#search {
     padding: 2px 20px;
     border-radius: 10px;
 
-    position: absolute;
+    /* position: absolute;
     left:30px;
-    top:50px;
+    top:50px; */
 }
 
-button#plus{
+.plus{
     color:white; 
     background-color: #00d1b2;
     border-radius:50%;
@@ -21,12 +26,12 @@ button#plus{
 
     
 
-    position: absolute;
+    /* position: absolute;
     left: 30px;
-    top: 85px;
+    top: 85px; */
 }
 
-button#create_acc{
+.create_acc{
     color:white;
     background-color: #2b78e4;
     border-color: black;
@@ -36,7 +41,7 @@ button#create_acc{
 
     box-shadow: 3px 3px black;
 
-    position: absolute;
+    /* position: absolute;
     left: 30px;
-    top: 140px;
+    top: 140px; */
 }
